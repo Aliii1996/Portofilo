@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.header__container h1 {
+    font-family: 'Spectral', serif;
+
+
+}
+
+.hello-word {
+    font-size: 1.5rem;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+/* ============== CTA ==================== */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* ============== Header Socials ==================== */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.me {
+    background:linear-gradient(var(--color-primary),transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0 ;
+    overflow: hidden;
+    
+}
+
+.me img {
+    height: 550px;
+}
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============ */
+
+@media screen and (max-width:1024px) {
+    header {
+        height: 68vh;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    
+    header {
+        height: 100vh;
+    }
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
+
+.job-title:before {
+    content: "";
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+
+
+@keyframes move {
+    0% { content: "F"; }
+    10% { content: "Fr"; }
+    20% { content: "Fro"; }
+    30% { content: "Fron"; }
+    40% { content: "Front"; }
+    50% { content: "Front E"; }
+    60% { content: "Front En"; }
+    70% { content: "Front End"; }
+    80% { content: "Front End"; }
+    90% { content: "Front End"; }
+    100% { content: "Front End"; }
+  }

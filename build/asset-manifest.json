@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c89946a.css",
+    "main.js": "/static/js/main.87e40915.js",
+    "static/media/HiTower site photo.png": "/static/media/HiTower site photo.1e47270f4b7fd41d0c7e.png",
+    "static/media/Fashion photo.png": "/static/media/Fashion photo.b9c43525d4856304404c.png",
+    "static/media/Ali Ashraf CV Deve.pdf": "/static/media/Ali Ashraf CV Deve.73ee031509d0b0d26b16.pdf",
+    "static/media/Movies App photo.png": "/static/media/Movies App photo.6bb97e97a9d353d2284c.png",
+    "static/media/jobdone site photo.png": "/static/media/jobdone site photo.a451b815642df33d67a4.png",
+    "static/media/photpgrahpy Site Photo.png": "/static/media/photpgrahpy Site Photo.a70ccde208789bc62596.png",
+    "static/media/me_about.jpeg": "/static/media/me_about.b04f0121432a41a4b21b.jpeg",
+    "static/media/WhatsApp_Image_2022-06-05_at_10.25.35_AM-removebg-preview.png": "/static/media/WhatsApp_Image_2022-06-05_at_10.25.35_AM-removebg-preview.1c5438b183307c6513ef.png",
+    "static/media/blondi site bootstraap.png": "/static/media/blondi site bootstraap.468553eba24b22b11502.png",
+    "index.html": "/index.html",
+    "main.8c89946a.css.map": "/static/css/main.8c89946a.css.map",
+    "main.87e40915.js.map": "/static/js/main.87e40915.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c89946a.css",
+    "static/js/main.87e40915.js"
+  ]
+}
